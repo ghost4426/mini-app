@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "ucmtovzm",
-    "password": "2kku3TO6RvNgNASQ2-idHU4WZnTRI0u5",
-    "database": "ucmtovzm",
-    "host": "satao.db.elephantsql.com",
+    "username": "postgres",
+    "password": "123",
+    "database": "hello-postgres",
+    "host": "127.0.0.1",
     "dialect": "postgres",
     "port": 5432,
     "operatorsAliases": false

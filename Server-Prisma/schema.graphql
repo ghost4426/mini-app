@@ -1,0 +1,33 @@
+type Query {
+    
+  # publishedPosts: [Post!]!
+  # post(postId: ID!): Post
+  # postsByUser(userId: ID!): [Post!]!
+  book(id: ID!): Book
+  books: [Book!]!
+  author(id: ID!): Author
+  authors: [Author!]!
+}
+
+type Mutation {
+  # createUser(name: String!): User
+  # createDraft(title: String!, userId: ID!): Post
+  # publish(postId: ID!): Post
+  addBook(name: String!, genre: String!, authorId: ID!): Book
+  addAuthor(name: String!, age: Int!): Author
+}
+
+
+type Author{
+  id: ID!
+  name: String!
+  age: Int!
+  books: [Book]
+}
+
+type Book{
+  id: ID!
+  name: String!
+  genre: String!
+  author: Author
+} 

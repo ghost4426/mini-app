@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "${workspaceFolder}/starter/prisma/dev.db",
+            "dialect": "SQLite",
+            "name": "db-prisma"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}

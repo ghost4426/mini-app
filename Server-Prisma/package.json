@@ -1,0 +1,16 @@
+{
+  "name": "server-prisma",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "graphql-yoga": "^1.18.3",
+    "prisma-client-lib": "^1.34.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
