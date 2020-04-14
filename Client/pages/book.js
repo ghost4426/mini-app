@@ -17,7 +17,7 @@ import Layout from '../components/MyLayout';
 // })
 
 const client = new ApolloClient({
-  uri: 'http://localhost:4000/',
+  uri: 'https://lit-depths-99775.herokuapp.com/',
 });
 
 class App extends Component {
